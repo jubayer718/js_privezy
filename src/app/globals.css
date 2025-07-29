@@ -120,3 +120,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.word-black{
+  color: rgb(26, 26, 26);
+}
+.button-bg{
+  background-color: rgb(176, 221, 29);
+}
