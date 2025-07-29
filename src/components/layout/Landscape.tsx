@@ -13,37 +13,37 @@ import Button from '../shared/Button';
 
 const cardInfo = [
   {
-    image: '/card_img_1.png',
-    title: 'JF Barbed Wire- 270 GSM',
-    price: '₹4,995.00'
+    image: '/card_img_5.png',
+    title: 'Antiqo Fence',
+    price: '₹10,024.00 – ₹14,984.82'
   },
   {
-    image: '/card_img_2.png',
-    title: 'FGC RustFree Fencing Poles',
-    price: '₹499.00 – ₹1,589.00'
+    image: '/card_img_6.png',
+    title: 'JF Australian Trellis',
+    price: '₹6,962.00'
   },
   {
-    image: '/card_img_3.png',
+    image: '/card_img_7.png',
     title: 'GI Poultry Mesh',
     price: '₹1,260.00 – ₹10,750.00'
   },
   {
-    image: '/card_img_4.png',
-    title: 'JF Bluelink Mesh',
-    price: '₹3,067.50 – ₹6,362.50'
+    image: '/card_img_8.png',
+    title: 'JF Polyhex Mesh',
+    price: '₹4,050.00 – ₹10,770.00'
   },
   {
-    image: '/card_img_1.png',
-    title: 'JF Barbed Wire- 270 GSM',
-    price: '₹4,995.00'
+    image: '/card_img_5.png',
+    title: 'JF Privezy Grass Wall',
+    price: '₹1,646.10 – ₹18,284.10'
   },
 ]
 
 console.log(cardInfo.map(card => card.image))
-const Agriculture = () => {
+const Landscape = () => {
   return (
     <Container className='my-18'>
-      <h2 className='font-medium text-4xl mb-10'>Agricultural Products</h2>
+      <h2 className='font-medium text-4xl mb-10'>Landscape Products</h2>
       <div className='flex items-center justify-center'>
         <Carousel className="w-full">
           <CarouselContent className="-ml-1 ">
@@ -93,4 +93,4 @@ const Agriculture = () => {
   );
 };
 
-export default Agriculture;
+export default Landscape;
