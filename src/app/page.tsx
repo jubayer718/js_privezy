@@ -1,3 +1,4 @@
+import Agriculture from "@/components/layout/Agriculture";
 import Banner from "@/components/layout/Banner";
 
 
@@ -6,6 +7,8 @@ export default function Home() {
     <>
       {/* Banner section */}
       <Banner/>     
+      {/* Agriculture section */}
+      <Agriculture/>
     </>
   );
 }

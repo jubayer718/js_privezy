@@ -12,6 +12,7 @@ import { Card, CardContent } from '@/components/ui/card';
 
 import Image from 'next/image';
 import Button from '../shared/Button';
+import { cn } from '@/lib/utils';
 
 const Banner = () => {
   return (
@@ -58,8 +59,8 @@ const Banner = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className={cn('button-bg')} />
+          <CarouselNext  className={cn('button-bg')} />
         </Carousel>
       </div>
     </Container>
