@@ -1,6 +1,7 @@
 import Agriculture from "@/components/layout/Agriculture";
 import Banner from "@/components/layout/Banner";
 import Landscape from "@/components/layout/Landscape";
+import Trusted from "@/components/layout/Trusted";
 
 
 export default function Home() {
@@ -11,7 +12,9 @@ export default function Home() {
       {/* Agriculture product section */}
       <Agriculture/>
       {/* Landscape product section */}
-      <Landscape/>
+      <Landscape />
+      {/* trusted customer section */}
+      <Trusted/>
     </>
   );
 }
