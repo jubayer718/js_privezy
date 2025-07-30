@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '../shared/Container';
 import { Card, CardContent, CardDescription, CardTitle } from '../ui/card';
 import Image from 'next/image';
+import Button from '../shared/Button';
 
 const WhyUs = () => {
   return (
@@ -78,7 +79,9 @@ const WhyUs = () => {
           </Card>
         </div>
 
-       </div>
+        </div>
+        
+        <div className='flex items-center justify-center mt-8'><Button className='' label='Contact Us'/></div>
     </div>
     </Container>
   );
