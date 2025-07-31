@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={cn("antialiased flex flex-col min-h-screen px-2", poppins.variable)}
+        className={cn("antialiased flex flex-col min-h-screen ", poppins.variable)}
       >
         {/*Navbar  */}
         <Navbar />
